@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Prayer | Kaleo Church">
+  <PageHeader title="Prayer" intro="Share prayer requests with our team. We would be honored to pray with you." />
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.prayer} target="_blank" rel="noreferrer">Submit Prayer Request</a></p>
+  </div></section>
+</BaseLayout>

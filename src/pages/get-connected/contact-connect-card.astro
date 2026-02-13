@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Contact / Connect Card | Kaleo Church">
+  <PageHeader title="Contact / Connect Card" intro="Use our Connect Card to ask questions, request follow-up, or share prayer needs." />
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.connectCard} target="_blank" rel="noreferrer">Open Connect Card</a></p>
+    <p><a href={canonical.churchCenter} target="_blank" rel="noreferrer">Open Church Center</a></p>
+  </div></section>
+</BaseLayout>

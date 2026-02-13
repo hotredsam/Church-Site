@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import CardGrid from "../components/CardGrid.astro";
+import LinkList from "../components/LinkList.astro";
+import { canonical } from "../config/site";
+---
+<BaseLayout title="Kaleo Church | Anchorage, Alaska" description="Following Jesus and helping others follow Him in Anchorage.">
+  <Hero
+    kicker="Sunday Gatherings"
+    title="Following Jesus Together In Anchorage"
+    text="At Kaleo Church, our mission is to follow Jesus and help others do the same. We gather every Sunday at 10:00 AM in Midtown and South Anchorage."
+    actions={[
+      { label: "Plan Your Visit", href: "/about/plan-your-visit" },
+      { label: "Watch Live Stream", href: "/live-stream" }
+    ]}
+  />
+
+  <CardGrid
+    title="Start Here"
+    items={[
+      { title: "About Kaleo", text: "Learn our story, beliefs, and leadership.", href: "/about" },
+      { title: "Get Connected", text: "Take your next step through groups, ministry, and Church Center.", href: "/get-connected" },
+      { title: "Grow", text: "Find sermons, prayer support, baptism, and serving pathways.", href: "/grow" },
+      { title: "Events", text: "See upcoming church events and calendar details.", href: "/events" }
+    ]}
+  />
+
+  <LinkList
+    title="Quick Destinations"
+    items={[
+      { label: "Connect Card", href: canonical.connectCard, external: true },
+      { label: "Give", href: canonical.giving, external: true },
+      { label: "Church Center", href: canonical.churchCenter, external: true },
+      { label: "Sermons", href: "/grow/sermons" },
+      { label: "Advent Resources", href: "/advent-resources" }
+    ]}
+  />
+</BaseLayout>

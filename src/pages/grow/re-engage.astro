@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import LinkList from "../../components/LinkList.astro";
+---
+<BaseLayout title="Re|Engage | Kaleo Church">
+  <PageHeader title="Re|Engage" intro="Re|Engage is our marriage ministry for couples in every season: crisis, healing, or healthy marriages that want to grow stronger." />
+  <LinkList
+    title="Re|Engage Links"
+    items={[
+      { label: "Re|Engage at Kaleo", href: "https://www.kaleoalaska.org/grow/reengage", external: true },
+      { label: "Contact / Connect", href: "/get-connected/contact-connect-card" }
+    ]}
+  />
+</BaseLayout>

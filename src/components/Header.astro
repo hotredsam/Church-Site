@@ -1,0 +1,140 @@
+---
+import { nav } from "../config/site";
+
+const current = Astro.url.pathname;
+---
+
+<header class="topbar" data-open="false">
+  <div class="container wrap">
+    <a href="/" class="brand" aria-label="Kaleo Church home">Kaleo Church</a>
+    <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <nav id="primary-nav" class="nav-wrap" aria-label="Primary navigation">
+      <ul class="menu">
+        {nav.map((item) => (
+          <li class="item">
+            <a class:list={{ active: current === item.href || current.startsWith(`${item.href}/`) }} href={item.href}>{item.label}</a>
+            {item.children && (
+              <ul class="submenu">
+                {item.children.map((child) => (
+                  <li><a href={child.href}>{child.label}</a></li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+{`(function(){
+  const btn = document.querySelector('.menu-toggle');
+  const nav = document.getElementById('primary-nav');
+  const header = document.querySelector('.topbar');
+  if(!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    const open = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!open));
+    header.dataset.open = String(!open);
+  });
+})();`}
+</script>
+
+<style>
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: color-mix(in srgb, var(--surface) 94%, white 6%);
+    border-bottom: 1px solid var(--line);
+    backdrop-filter: blur(8px);
+  }
+  .wrap {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 68px;
+  }
+  .brand {
+    font-family: "Lora", Georgia, serif;
+    font-weight: 700;
+    font-size: 1.18rem;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .item { position: relative; }
+  .item > a {
+    display: inline-block;
+    padding: 0.45rem 0.7rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+  }
+  .item > a.active,
+  .item > a:hover {
+    background: var(--primary-soft);
+    color: var(--primary);
+  }
+  .submenu {
+    position: absolute;
+    top: calc(100% + 0.3rem);
+    right: 0;
+    min-width: 220px;
+    padding: 0.5rem;
+    margin: 0;
+    list-style: none;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(4px);
+    transition: all 140ms ease;
+  }
+  .item:hover .submenu,
+  .item:focus-within .submenu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .submenu a {
+    display: block;
+    padding: 0.45rem 0.55rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .submenu a:hover {
+    background: var(--surface-soft);
+  }
+
+  @media (max-width: 860px) {
+    .wrap { align-items: start; padding-top: 0.8rem; padding-bottom: 0.8rem; }
+    .menu { gap: 0.3rem; }
+    .submenu {
+      position: static;
+      opacity: 1;
+      pointer-events: auto;
+      transform: none;
+      box-shadow: none;
+      margin-top: 0.1rem;
+      min-width: 0;
+    }
+    .item { width: 100%; }
+  }
+</style>

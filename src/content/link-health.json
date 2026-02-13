@@ -1,0 +1,2765 @@
+{
+  "checkedAt": "2026-02-12T08:54:03.168Z",
+  "totals": {
+    "links": 459,
+    "ok": 194,
+    "failed": 265
+  },
+  "results": [
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/204685",
+      "ok": true,
+      "status": 200,
+      "ms": 709
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/217277",
+      "ok": true,
+      "status": 200,
+      "ms": 743
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/giving",
+      "ok": true,
+      "status": 200,
+      "ms": 763
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/748061?open-in-church-center-modal=true",
+      "ok": true,
+      "status": 200,
+      "ms": 742
+    },
+    {
+      "url": "https://twitter.com/share",
+      "ok": true,
+      "status": 200,
+      "ms": 583
+    },
+    {
+      "url": "http://facebook.com/kaleoalaska",
+      "ok": true,
+      "status": 200,
+      "ms": 574
+    },
+    {
+      "url": "http://churchplantmedia.com/",
+      "ok": true,
+      "status": 200,
+      "ms": 980
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/sample-post-4.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 345
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/sample-post-3.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 362
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/sample-post-2.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 387
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/camp-marantha-map-rv-parking.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 353
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/camp-marantha-map-rv-parking.png",
+      "ok": true,
+      "status": 200,
+      "ms": 355
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%203.30",
+      "ok": true,
+      "status": 200,
+      "ms": 591
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/chris-portrait.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 273
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/home",
+      "ok": true,
+      "status": 200,
+      "ms": 240
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Vr9fFXkfWsg",
+      "ok": true,
+      "status": 200,
+      "ms": 1082
+    },
+    {
+      "url": "https://itunes.apple.com/us/app/my-church-center/id1357742931?mt=8&ls=1&ign-mpt=uo%3D4",
+      "ok": true,
+      "status": 200,
+      "ms": 818
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter",
+      "ok": true,
+      "status": 200,
+      "ms": 224
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/assets/app-store-badge1.png",
+      "ok": true,
+      "status": 200,
+      "ms": 125
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/assets/google-play-badge.png",
+      "ok": true,
+      "status": 200,
+      "ms": 126
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/cody-portrait.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 281
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/lightstock_110417_xsmall_lucy_.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 253
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/square-insets-1.png",
+      "ok": true,
+      "status": 200,
+      "ms": 254
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/square-insets.png",
+      "ok": true,
+      "status": 200,
+      "ms": 246
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/211893",
+      "ok": true,
+      "status": 200,
+      "ms": 466
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/apply-now-button-1.png",
+      "ok": true,
+      "status": 200,
+      "ms": 250
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/212935",
+      "ok": true,
+      "status": 200,
+      "ms": 568
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/204334",
+      "ok": true,
+      "status": 200,
+      "ms": 451
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/529181",
+      "ok": true,
+      "status": 200,
+      "ms": 561
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/513296",
+      "ok": true,
+      "status": 200,
+      "ms": 549
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/513556",
+      "ok": true,
+      "status": 200,
+      "ms": 428
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/226776",
+      "ok": true,
+      "status": 200,
+      "ms": 552
+    },
+    {
+      "url": "https://www.gospelproject.com/kids/?link=nav",
+      "ok": true,
+      "status": 200,
+      "ms": 410
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/298166",
+      "ok": true,
+      "status": 200,
+      "ms": 426
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/gospel-plan-poster.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/kaleokidsregisterbutton.png",
+      "ok": true,
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/kaleokidsresourcesbutton.png",
+      "ok": true,
+      "status": 200,
+      "ms": 291
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/kaleokidsvolunteerbutton.png",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/225148",
+      "ok": true,
+      "status": 200,
+      "ms": 457
+    },
+    {
+      "url": "https://vimeo.com/user/68970431/folder/24134934",
+      "ok": true,
+      "status": 200,
+      "ms": 1352
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/prayer.png",
+      "ok": true,
+      "status": 200,
+      "ms": 252
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/care.png",
+      "ok": true,
+      "status": 200,
+      "ms": 240
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/share.png",
+      "ok": true,
+      "status": 200,
+      "ms": 251
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ksm-weekly-gathering.png",
+      "ok": true,
+      "status": 200,
+      "ms": 237
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ksm-game-nights.png",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/galentines-s.png",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://www.jointhejourney.com/",
+      "ok": true,
+      "status": 200,
+      "ms": 506
+    },
+    {
+      "url": "https://www.iamnorthside.com/post/oia-method-of-bible-study",
+      "ok": false,
+      "status": 0,
+      "ms": 11121,
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.knowableword.com/2012/08/10/our-bible-study-method-oia/",
+      "ok": true,
+      "status": 200,
+      "ms": 281
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rQ6HzXwZgLI",
+      "ok": true,
+      "status": 200,
+      "ms": 704
+    },
+    {
+      "url": "https://login.rightnowmedia.org/",
+      "ok": true,
+      "status": 200,
+      "ms": 508
+    },
+    {
+      "url": "https://app.rightnowmedia.org/en/join/Kaleo",
+      "ok": true,
+      "status": 200,
+      "ms": 406
+    },
+    {
+      "url": "https://dwellapp.io/signup/with/J64VzJ",
+      "ok": true,
+      "status": 200,
+      "ms": 326
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/jtj_reading_plan.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 316
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/biblical-theology-from-9-marks-book.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 296
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/k-group-life_maps.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 277
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/tips_sharingyourstory.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 299
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ltg-handout.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 275
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/00_k-group-primer.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "url": "https://www.amazon.com/Mission-Motherhood-Touching-Childs-Eternity/dp/1578565812",
+      "ok": true,
+      "status": 200,
+      "ms": 593
+    },
+    {
+      "url": "https://www.drjamesdobson.org/strengthening-fathers",
+      "ok": false,
+      "status": 404,
+      "ms": 761
+    },
+    {
+      "url": "https://www.amazon.com/Dont-Make-Me-Count-Three/dp/0972304649/ref=sr_1_1?dchild=1&keywords=don%27t+make+me+count+to+3&qid=1634444127&s=books&sr=1-1",
+      "ok": true,
+      "status": 200,
+      "ms": 573
+    },
+    {
+      "url": "https://gospelinlife.com/downloads/parents-and-children-2/",
+      "ok": true,
+      "status": 200,
+      "ms": 804
+    },
+    {
+      "url": "https://gospelinlife.com/downloads/the-prodigal-sons-5424/",
+      "ok": true,
+      "status": 200,
+      "ms": 601
+    },
+    {
+      "url": "https://gospelinlife.com/downloads/hope-for-the-family-6025/",
+      "ok": true,
+      "status": 200,
+      "ms": 763
+    },
+    {
+      "url": "https://www.amazon.com/Bringing-Up-Boys-James-Dobson/dp/1414391331/ref=sr_1_1?dchild=1&keywords=bringing+up+boys&qid=1634444303&s=books&sr=1-1",
+      "ok": true,
+      "status": 200,
+      "ms": 585
+    },
+    {
+      "url": "https://gospelinlife.com/downloads/cultivating-a-healthy-marriage-part-1-lecture-4656/",
+      "ok": true,
+      "status": 200,
+      "ms": 671
+    },
+    {
+      "url": "https://www.amazon.com/Bringing-Girls-Practical-Encouragement-Generation/dp/1414391323/ref=sr_1_1?dchild=1&keywords=bringing+up+girls&qid=1634444378&s=books&sr=1-1",
+      "ok": true,
+      "status": 200,
+      "ms": 572
+    },
+    {
+      "url": "https://www.amazon.com/Shepherding-Childs-Heart-Tedd-Tripp/dp/0966378601/ref=sr_1_1?dchild=1&keywords=shepherding+a+childs+heart&qid=1634444421&s=books&sr=1-1",
+      "ok": true,
+      "status": 200,
+      "ms": 569
+    },
+    {
+      "url": "https://www.rightnowmedia.org/Library/4",
+      "ok": true,
+      "status": 200,
+      "ms": 383
+    },
+    {
+      "url": "http://newcitycatechism.com/videos/",
+      "ok": true,
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "url": "https://thegospelcoalition.bandcamp.com/album/songs-from-the-new-city-catechism",
+      "ok": true,
+      "status": 200,
+      "ms": 421
+    },
+    {
+      "url": "https://thegospelcoalition.bandcamp.com/album/more-songs-from-the-new-city-catechism",
+      "ok": true,
+      "status": 200,
+      "ms": 519
+    },
+    {
+      "url": "https://thegospelcoalition.bandcamp.com/album/songs-from-the-new-city-catechism-4",
+      "ok": true,
+      "status": 200,
+      "ms": 743
+    },
+    {
+      "url": "https://www.amazon.com/Praying-Life-Connecting-Distracting-World/dp/1631466836/ref=sr_1_1?dchild=1&keywords=a+praying+life&qid=1635028506&sr=8-1",
+      "ok": true,
+      "status": 200,
+      "ms": 583
+    },
+    {
+      "url": "https://www.amazon.com/Reason-God-Belief-Age-Skepticism/dp/1594483493/ref=sr_1_1?dchild=1&keywords=reason+for+God&qid=1635028543&sr=8-1",
+      "ok": true,
+      "status": 200,
+      "ms": 542
+    },
+    {
+      "url": "https://www.amazon.com/Voice-Heart-Call-Full-Living/dp/098439916X/ref=sr_1_1?dchild=1&keywords=voice+of+the+heart&qid=1635028577&sr=8-1",
+      "ok": true,
+      "status": 200,
+      "ms": 562
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/mission-of-motherhood.png",
+      "ok": true,
+      "status": 200,
+      "ms": 247
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/fatherhood.png",
+      "ok": true,
+      "status": 200,
+      "ms": 233
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/dont-make-me-count-to-three.png",
+      "ok": true,
+      "status": 200,
+      "ms": 249
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/individual_parents_and_children-1-400x400.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/the-prodigal-sons.png",
+      "ok": true,
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/hope-for-the-family.png",
+      "ok": true,
+      "status": 200,
+      "ms": 261
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/bringing-up-boys.png",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/cultivating-a-healthy-marriage-2.png",
+      "ok": true,
+      "status": 200,
+      "ms": 245
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/bringing-up-girls.png",
+      "ok": true,
+      "status": 200,
+      "ms": 260
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/sheperding-a-childs-heart.png",
+      "ok": true,
+      "status": 200,
+      "ms": 260
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/righnow-media-for-kids.png",
+      "ok": true,
+      "status": 200,
+      "ms": 253
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/new-city-catechism-site.png",
+      "ok": true,
+      "status": 200,
+      "ms": 228
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/new-city-songs-q1-15.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/new-city-songs-q16-31.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 229
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/new-city-songs-q42-52.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/a-praying-life.png",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/the-reason-for-god-2.png",
+      "ok": true,
+      "status": 200,
+      "ms": 252
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/voice-of-the-heart.png",
+      "ok": true,
+      "status": 200,
+      "ms": 258
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ksmheader.png",
+      "ok": true,
+      "status": 200,
+      "ms": 259
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/img_8601-3.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/233727",
+      "ok": true,
+      "status": 200,
+      "ms": 478
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/membership-covenant-3-12-24.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "url": "https://a.co/d/0gRVvLYE",
+      "ok": true,
+      "status": 200,
+      "ms": 977
+    },
+    {
+      "url": "https://a.co/d/0j22geHE",
+      "ok": true,
+      "status": 200,
+      "ms": 1008
+    },
+    {
+      "url": "https://a.co/d/09UIM6Qv",
+      "ok": true,
+      "status": 200,
+      "ms": 954
+    },
+    {
+      "url": "https://a.co/d/06mSGmi2",
+      "ok": true,
+      "status": 200,
+      "ms": 988
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/freedom-starts-today-img.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 261
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/growing-in-christ-together-img.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 255
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/groups/life-stage-and-demographic-groups/men-s-ministry",
+      "ok": true,
+      "status": 200,
+      "ms": 439
+    },
+    {
+      "url": "https://maps.app.goo.gl/AwzVGX7vuXRnSupV9",
+      "ok": true,
+      "status": 200,
+      "ms": 659
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/people/forms/766443",
+      "ok": true,
+      "status": 200,
+      "ms": 440
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/front-line-men.png",
+      "ok": true,
+      "status": 200,
+      "ms": 249
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-04-07-order-of-worship.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 250
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-03-03-order-of-worship-copy.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 242
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-03-10-order-of-worship.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-03-17-order-of-worship.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-03-24-order-of-worship.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/2024-03-31-order-of-worship.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 245
+    },
+    {
+      "url": "https://gospelinlife.com/downloads/why-plant-churches/",
+      "ok": true,
+      "status": 200,
+      "ms": 641
+    },
+    {
+      "url": "https://maps.app.goo.gl/hmkgUK39pQ8Juo3n8",
+      "ok": true,
+      "status": 200,
+      "ms": 577
+    },
+    {
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1926.3127339338716!2d-149.90855190560902!3d61.13109881245947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c899b4ce52432f%3A0x9c774ca179630bc!2s1301%20W%20100th%20Ave%2C%20Anchorage%2C%20AK%2099515!5e0!3m2!1sen!2sus!4v1698799461729!5m2!1sen!2sus",
+      "ok": true,
+      "status": 200,
+      "ms": 387
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J_rViLK1vG4",
+      "ok": true,
+      "status": 200,
+      "ms": 948
+    },
+    {
+      "url": "https://www.youtube.com/embed/J_rViLK1vG4?feature=oembed&rel=0",
+      "ok": true,
+      "status": 200,
+      "ms": 259
+    },
+    {
+      "url": "https://open.spotify.com/user/31zt7em6l4uadekbkega7t7f5wmi?si=d64dee1379bb4444",
+      "ok": true,
+      "status": 200,
+      "ms": 365
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/registrations/events/1361649",
+      "ok": true,
+      "status": 200,
+      "ms": 244
+    },
+    {
+      "url": "https://www.reengage.org/",
+      "ok": true,
+      "status": 200,
+      "ms": 509
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/registrations/events/3037385",
+      "ok": true,
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/registrations/events/1800182",
+      "ok": true,
+      "status": 200,
+      "ms": 366
+    },
+    {
+      "url": "https://player.vimeo.com/video/323801604?h=cd3a242301&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 553
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/reengage-slide-fall-2022-2.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/reengage-stories-site.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 230
+    },
+    {
+      "url": "https://wolstore.org/",
+      "ok": true,
+      "status": 200,
+      "ms": 234
+    },
+    {
+      "url": "https://s3.amazonaws.com/churchplantmedia-cms/mediaplayer/img/defaultseries.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 343
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/independent-sermons-1550108703.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 255
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/this-is-kaleo-church-purpose.png",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/summer-in-psalms.png",
+      "ok": true,
+      "status": 200,
+      "ms": 253
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/john-postcard-design.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 231
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/return-1689655900.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/psalms-for-the-summer-1654147754.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 284
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/thriving-in-exile-following-jesus-in-a-world-that-is-not-our-home-1640636930.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 255
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/haggai-first-things-first-1640636701.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/gods-greatest-gift-the-promised-one-1638914886.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 225
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/habakkuk.png",
+      "ok": true,
+      "status": 200,
+      "ms": 273
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ecclesiastes.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 261
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/made-for-mission-1558904020.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 258
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/the-gospel-of-mark.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 231
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/image-from-ios.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 266
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/cody-carpenter.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 258
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/chris-cha.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 270
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/leadership-photos-patrick.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 274
+    },
+    {
+      "url": "https://player.vimeo.com/video/399604037?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 607
+    },
+    {
+      "url": "https://player.vimeo.com/video/403201259?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 617
+    },
+    {
+      "url": "https://player.vimeo.com/video/404381156?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 581
+    },
+    {
+      "url": "https://player.vimeo.com/video/406912684?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 598
+    },
+    {
+      "url": "https://player.vimeo.com/video/409296394?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 597
+    },
+    {
+      "url": "https://player.vimeo.com/video/411890399?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 552
+    },
+    {
+      "url": "https://player.vimeo.com/video/414373732?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 638
+    },
+    {
+      "url": "https://player.vimeo.com/video/416740718?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 632
+    },
+    {
+      "url": "https://player.vimeo.com/video/419375845?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 701
+    },
+    {
+      "url": "https://player.vimeo.com/video/421988315?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 622
+    },
+    {
+      "url": "https://player.vimeo.com/video/424458580?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 588
+    },
+    {
+      "url": "https://player.vimeo.com/video/484197449?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 507
+    },
+    {
+      "url": "https://player.vimeo.com/video/485187860?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 386
+    },
+    {
+      "url": "https://player.vimeo.com/video/487865080?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 539
+    },
+    {
+      "url": "https://player.vimeo.com/video/487885546?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 389
+    },
+    {
+      "url": "https://player.vimeo.com/video/493121982?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 411
+    },
+    {
+      "url": "https://player.vimeo.com/video/495029300?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 490
+    },
+    {
+      "url": "https://player.vimeo.com/video/496676325?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 535
+    },
+    {
+      "url": "https://player.vimeo.com/video/498979413?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 522
+    },
+    {
+      "url": "https://player.vimeo.com/video/499001401?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 496
+    },
+    {
+      "url": "https://player.vimeo.com/video/496695304?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 488
+    },
+    {
+      "url": "https://player.vimeo.com/video/506825614?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 499
+    },
+    {
+      "url": "https://player.vimeo.com/video/509538764?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 522
+    },
+    {
+      "url": "https://player.vimeo.com/video/506854295?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 543
+    },
+    {
+      "url": "https://player.vimeo.com/video/512301550?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 505
+    },
+    {
+      "url": "https://player.vimeo.com/video/515046497?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 502
+    },
+    {
+      "url": "https://player.vimeo.com/video/517892260?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 497
+    },
+    {
+      "url": "https://player.vimeo.com/video/520699595?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 501
+    },
+    {
+      "url": "https://player.vimeo.com/video/523529628?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 474
+    },
+    {
+      "url": "https://player.vimeo.com/video/527010827?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 495
+    },
+    {
+      "url": "https://player.vimeo.com/video/535651575?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 473
+    },
+    {
+      "url": "https://player.vimeo.com/video/530077617?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 460
+    },
+    {
+      "url": "https://player.vimeo.com/video/535617323?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 474
+    },
+    {
+      "url": "https://player.vimeo.com/video/538425794?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 472
+    },
+    {
+      "url": "https://player.vimeo.com/video/541389755?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 550
+    },
+    {
+      "url": "https://player.vimeo.com/video/544341493?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 536
+    },
+    {
+      "url": "https://player.vimeo.com/video/550118563?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 617
+    },
+    {
+      "url": "https://player.vimeo.com/video/509558180?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 381
+    },
+    {
+      "url": "https://player.vimeo.com/video/550529895?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 515
+    },
+    {
+      "url": "https://player.vimeo.com/video/556951188?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 522
+    },
+    {
+      "url": "https://player.vimeo.com/video/556928575?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 499
+    },
+    {
+      "url": "https://player.vimeo.com/video/559719614?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 519
+    },
+    {
+      "url": "https://player.vimeo.com/video/562533571?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 545
+    },
+    {
+      "url": "https://player.vimeo.com/video/568192656?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 519
+    },
+    {
+      "url": "https://player.vimeo.com/video/565368214?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 524
+    },
+    {
+      "url": "https://player.vimeo.com/video/573731356?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 516
+    },
+    {
+      "url": "https://player.vimeo.com/video/576514121?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 672
+    },
+    {
+      "url": "https://player.vimeo.com/video/570997960?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 437
+    },
+    {
+      "url": "https://player.vimeo.com/video/579177445?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 419
+    },
+    {
+      "url": "https://player.vimeo.com/video/584637328?app_id=122963&h=28e74749da",
+      "ok": false,
+      "status": 401,
+      "ms": 382
+    },
+    {
+      "url": "https://player.vimeo.com/video/587572281?app_id=122963&h=f232c523e6",
+      "ok": false,
+      "status": 401,
+      "ms": 505
+    },
+    {
+      "url": "https://player.vimeo.com/video/590713530?h=f440513978&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 475
+    },
+    {
+      "url": "https://player.vimeo.com/video/594295608?h=b4eff1970b&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 514
+    },
+    {
+      "url": "https://player.vimeo.com/video/598454005?h=28c137bb5a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 599
+    },
+    {
+      "url": "https://player.vimeo.com/video/603464661?h=e99602ad2c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 481
+    },
+    {
+      "url": "https://player.vimeo.com/video/504171165?h=b48e7fc317&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 498
+    },
+    {
+      "url": "https://player.vimeo.com/video/615464814?h=ca6a933ec4&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 504
+    },
+    {
+      "url": "https://player.vimeo.com/video/621826568?h=6eb23531ff&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 600
+    },
+    {
+      "url": "https://player.vimeo.com/video/634674397?h=2b33297308&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 500
+    },
+    {
+      "url": "https://player.vimeo.com/video/634724196?h=03a7122b2a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 512
+    },
+    {
+      "url": "https://player.vimeo.com/video/638441108?h=69b8989209&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 377
+    },
+    {
+      "url": "https://player.vimeo.com/video/640953889?h=09123266a8&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 533
+    },
+    {
+      "url": "https://player.vimeo.com/video/654287129?h=112118ffb7&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 405
+    },
+    {
+      "url": "https://player.vimeo.com/video/645811229?h=5912745c8d&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 511
+    },
+    {
+      "url": "https://player.vimeo.com/video/648357147?h=7771220c91&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 627
+    },
+    {
+      "url": "https://player.vimeo.com/video/650911238?h=c132e192a0&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 529
+    },
+    {
+      "url": "https://player.vimeo.com/video/653491092?h=3cf44d184e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 591
+    },
+    {
+      "url": "https://player.vimeo.com/video/655927067?h=bddc6a420e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 633
+    },
+    {
+      "url": "https://player.vimeo.com/video/660828962?h=c321735f1c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 591
+    },
+    {
+      "url": "https://player.vimeo.com/video/660826429?h=475c98eaed&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 374
+    },
+    {
+      "url": "https://player.vimeo.com/video/658403443?h=80a8cfcabd&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 482
+    },
+    {
+      "url": "https://player.vimeo.com/video/661796451?h=9a912546f6&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 398
+    },
+    {
+      "url": "https://player.vimeo.com/video/660278359?h=a1ce05c31d&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 581
+    },
+    {
+      "url": "https://player.vimeo.com/video/664037639?h=fbd4fda948&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 469
+    },
+    {
+      "url": "https://player.vimeo.com/video/669196382?h=0747e1af8e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 461
+    },
+    {
+      "url": "https://player.vimeo.com/video/666565753?h=4233461704&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 477
+    },
+    {
+      "url": "https://player.vimeo.com/video/674204260?h=a629e5199e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 381
+    },
+    {
+      "url": "https://player.vimeo.com/video/671751759?h=4f75c62f4d&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 478
+    },
+    {
+      "url": "https://player.vimeo.com/video/676915968?h=3f965fc29e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 463
+    },
+    {
+      "url": "https://player.vimeo.com/video/679797427?h=256f129e00&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 489
+    },
+    {
+      "url": "https://player.vimeo.com/video/682607085?h=ca1baa9cf2&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 477
+    },
+    {
+      "url": "https://player.vimeo.com/video/687706578?h=c18b5edc4a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 594
+    },
+    {
+      "url": "https://player.vimeo.com/video/685255178?h=77c8a1ad15&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 474
+    },
+    {
+      "url": "https://player.vimeo.com/video/696796727?h=e5ba2fa6db&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 473
+    },
+    {
+      "url": "https://player.vimeo.com/video/696814406?h=228c9f3d6a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 403
+    },
+    {
+      "url": "https://player.vimeo.com/video/690298087?h=f8673aa5e1&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 462
+    },
+    {
+      "url": "https://player.vimeo.com/video/705984968?h=d146fa3c33&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 643
+    },
+    {
+      "url": "https://player.vimeo.com/video/697971780?h=4275dca10b&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 501
+    },
+    {
+      "url": "https://player.vimeo.com/video/702617502?h=430aef87be&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 418
+    },
+    {
+      "url": "https://player.vimeo.com/video/702636148?h=de45b5d057&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 545
+    },
+    {
+      "url": "https://player.vimeo.com/video/705177163?h=054b99e0dd&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 506
+    },
+    {
+      "url": "https://player.vimeo.com/video/707587250?h=329ba9e99e&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 484
+    },
+    {
+      "url": "https://player.vimeo.com/video/710140704?h=2fb580cdaf&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 460
+    },
+    {
+      "url": "https://player.vimeo.com/video/715004119?h=13c8035da5&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 543
+    },
+    {
+      "url": "https://player.vimeo.com/video/712647812?h=89e60b883b&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 491
+    },
+    {
+      "url": "https://player.vimeo.com/video/719628669?h=3821199e83&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 478
+    },
+    {
+      "url": "https://player.vimeo.com/video/720512023?h=e7a0c46145&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 586
+    },
+    {
+      "url": "https://player.vimeo.com/video/724253776?h=8a957889b9&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 465
+    },
+    {
+      "url": "https://player.vimeo.com/video/726535444?h=8e1f246ab1&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 556
+    },
+    {
+      "url": "https://player.vimeo.com/video/728640522?h=2fd85789fb&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 437
+    },
+    {
+      "url": "https://player.vimeo.com/video/730814642?h=c9b6d70c7d&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 598
+    },
+    {
+      "url": "https://player.vimeo.com/video/720507971?h=ebf6f82eda&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 498
+    },
+    {
+      "url": "https://player.vimeo.com/video/737693902?h=b316b649cc&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 446
+    },
+    {
+      "url": "https://player.vimeo.com/video/733031511?h=41678fabd1&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 499
+    },
+    {
+      "url": "https://player.vimeo.com/video/737364894?h=1eea5facb1&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 471
+    },
+    {
+      "url": "https://player.vimeo.com/video/741674989?h=bfc9aecd47&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 501
+    },
+    {
+      "url": "https://player.vimeo.com/video/743990772?h=7fb5babdbb&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 504
+    },
+    {
+      "url": "https://player.vimeo.com/video/748573539?h=63249f5265&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 509
+    },
+    {
+      "url": "https://player.vimeo.com/video/746361649?h=52ab1557ed&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 410
+    },
+    {
+      "url": "https://player.vimeo.com/video/751003050?h=14706eae77&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 482
+    },
+    {
+      "url": "https://player.vimeo.com/video/756203359?h=1c44cc0760&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 456
+    },
+    {
+      "url": "https://player.vimeo.com/video/753626923?h=4627f9fca0&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 498
+    },
+    {
+      "url": "https://player.vimeo.com/video/760849427?h=e3bd6f3849&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 488
+    },
+    {
+      "url": "https://player.vimeo.com/video/769547472?h=69036dc297&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 529
+    },
+    {
+      "url": "https://player.vimeo.com/video/758531659?h=01aaa6d074&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 375
+    },
+    {
+      "url": "https://player.vimeo.com/video/767889532?h=8caf3e5778&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 592
+    },
+    {
+      "url": "https://player.vimeo.com/video/773094472?h=92b91ed9bb&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 482
+    },
+    {
+      "url": "https://player.vimeo.com/video/775569782?h=335ccd8f0c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 425
+    },
+    {
+      "url": "https://player.vimeo.com/video/775583497?h=f94f626e0f&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 642
+    },
+    {
+      "url": "https://player.vimeo.com/video/777902624?h=1e73a10f91&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 504
+    },
+    {
+      "url": "https://player.vimeo.com/video/780184246?h=964fac37c1&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 490
+    },
+    {
+      "url": "https://player.vimeo.com/video/782340901?h=eb7239093c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 625
+    },
+    {
+      "url": "https://player.vimeo.com/video/785595425?h=dce141479c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 556
+    },
+    {
+      "url": "https://player.vimeo.com/video/787383332?h=08126c2e2f&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 620
+    },
+    {
+      "url": "https://player.vimeo.com/video/789518104?h=207661d589&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 477
+    },
+    {
+      "url": "https://player.vimeo.com/video/793917177?h=c2130ba316&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 508
+    },
+    {
+      "url": "https://player.vimeo.com/video/793926687?h=12cc76001c&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 399
+    },
+    {
+      "url": "https://player.vimeo.com/video/796104084?h=2085ea6f05&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 494
+    },
+    {
+      "url": "https://player.vimeo.com/video/798202011?h=2a00ce90aa&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 513
+    },
+    {
+      "url": "https://player.vimeo.com/video/800358263?h=40ff2869a6&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 483
+    },
+    {
+      "url": "https://player.vimeo.com/video/802504410?h=aa58276768&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 389
+    },
+    {
+      "url": "https://player.vimeo.com/video/804938262?h=73af2b1abe&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 515
+    },
+    {
+      "url": "https://player.vimeo.com/video/807317746?h=a5ddb2ada4&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 540
+    },
+    {
+      "url": "https://player.vimeo.com/video/809560505?h=6c2708abc8&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 494
+    },
+    {
+      "url": "https://player.vimeo.com/video/811839520?h=256f88b862&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 553
+    },
+    {
+      "url": "https://player.vimeo.com/video/814061075?h=ee5a354447&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 443
+    },
+    {
+      "url": "https://player.vimeo.com/video/818162637?h=feb7aa3441&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 510
+    },
+    {
+      "url": "https://player.vimeo.com/video/820317200?h=03e523c37a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 377
+    },
+    {
+      "url": "https://player.vimeo.com/video/818176050?h=ff41d70604&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 470
+    },
+    {
+      "url": "https://player.vimeo.com/video/824569087?h=9625babf3a&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 586
+    },
+    {
+      "url": "https://player.vimeo.com/video/826696348?h=4082740d3f&app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 475
+    },
+    {
+      "url": "https://player.vimeo.com/video/826707605?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 485
+    },
+    {
+      "url": "https://player.vimeo.com/video/828838168?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 470
+    },
+    {
+      "url": "https://player.vimeo.com/video/831043055?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 532
+    },
+    {
+      "url": "https://player.vimeo.com/video/833121135?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 382
+    },
+    {
+      "url": "https://player.vimeo.com/video/824582651?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 591
+    },
+    {
+      "url": "https://player.vimeo.com/video/835247829?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 485
+    },
+    {
+      "url": "https://player.vimeo.com/video/839527617?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 484
+    },
+    {
+      "url": "https://player.vimeo.com/video/841694367?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 414
+    },
+    {
+      "url": "https://player.vimeo.com/video/845752151?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 386
+    },
+    {
+      "url": "https://player.vimeo.com/video/849958284?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 384
+    },
+    {
+      "url": "https://player.vimeo.com/video/849970456?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 385
+    },
+    {
+      "url": "https://player.vimeo.com/video/854855766?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 322
+    },
+    {
+      "url": "https://player.vimeo.com/video/854191259?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 544
+    },
+    {
+      "url": "https://player.vimeo.com/video/859163052?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 192
+    },
+    {
+      "url": "https://player.vimeo.com/video/862216982?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 506
+    },
+    {
+      "url": "https://player.vimeo.com/video/865188730?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 198
+    },
+    {
+      "url": "https://player.vimeo.com/video/866516903?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 197
+    },
+    {
+      "url": "https://player.vimeo.com/video/868128409?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 386
+    },
+    {
+      "url": "https://player.vimeo.com/video/870452089?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 210
+    },
+    {
+      "url": "https://player.vimeo.com/video/890490497?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 100
+    },
+    {
+      "url": "https://player.vimeo.com/video/874596553?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 494
+    },
+    {
+      "url": "https://player.vimeo.com/video/879210763?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 520
+    },
+    {
+      "url": "https://player.vimeo.com/video/881488401?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 469
+    },
+    {
+      "url": "https://player.vimeo.com/video/917248717?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 213
+    },
+    {
+      "url": "https://player.vimeo.com/video/919785896?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 98
+    },
+    {
+      "url": "https://player.vimeo.com/video/922149079?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 210
+    },
+    {
+      "url": "https://player.vimeo.com/video/922240910?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 282
+    },
+    {
+      "url": "https://player.vimeo.com/video/923873507?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 203
+    },
+    {
+      "url": "https://player.vimeo.com/video/923894896?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 400
+    },
+    {
+      "url": "https://player.vimeo.com/video/924759593?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 195
+    },
+    {
+      "url": "https://player.vimeo.com/video/926382892?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 204
+    },
+    {
+      "url": "https://player.vimeo.com/video/928855852?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 488
+    },
+    {
+      "url": "https://player.vimeo.com/video/929685441?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 97
+    },
+    {
+      "url": "https://player.vimeo.com/video/929758798?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 463
+    },
+    {
+      "url": "https://player.vimeo.com/video/930054784?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 396
+    },
+    {
+      "url": "https://player.vimeo.com/video/930060131?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 386
+    },
+    {
+      "url": "https://player.vimeo.com/video/931333274?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 413
+    },
+    {
+      "url": "https://player.vimeo.com/video/932211481?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 465
+    },
+    {
+      "url": "https://player.vimeo.com/video/940959752?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 463
+    },
+    {
+      "url": "https://player.vimeo.com/video/940973126?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 325
+    },
+    {
+      "url": "https://player.vimeo.com/video/943809767?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 505
+    },
+    {
+      "url": "https://player.vimeo.com/video/947131239?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 192
+    },
+    {
+      "url": "https://player.vimeo.com/video/950854293?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 292
+    },
+    {
+      "url": "https://player.vimeo.com/video/950859235?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 198
+    },
+    {
+      "url": "https://player.vimeo.com/video/956748673?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 284
+    },
+    {
+      "url": "https://player.vimeo.com/video/956734720?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 280
+    },
+    {
+      "url": "https://player.vimeo.com/video/967161462?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 237
+    },
+    {
+      "url": "https://player.vimeo.com/video/967274254?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 293
+    },
+    {
+      "url": "https://player.vimeo.com/video/978530900?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 204
+    },
+    {
+      "url": "https://player.vimeo.com/video/980939056?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 401
+    },
+    {
+      "url": "https://player.vimeo.com/video/985250942?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 284
+    },
+    {
+      "url": "https://player.vimeo.com/video/988649888?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 458
+    },
+    {
+      "url": "https://player.vimeo.com/video/997942437?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 555
+    },
+    {
+      "url": "https://player.vimeo.com/video/998388298?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 207
+    },
+    {
+      "url": "https://player.vimeo.com/video/1000955301?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 419
+    },
+    {
+      "url": "https://player.vimeo.com/video/1002970475?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 356
+    },
+    {
+      "url": "https://player.vimeo.com/video/1006017401?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 368
+    },
+    {
+      "url": "https://player.vimeo.com/video/1009989868?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 539
+    },
+    {
+      "url": "https://player.vimeo.com/video/1014567390?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 303
+    },
+    {
+      "url": "https://player.vimeo.com/video/1014575024?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 374
+    },
+    {
+      "url": "https://player.vimeo.com/video/1017315322?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 111
+    },
+    {
+      "url": "https://player.vimeo.com/video/1019993695?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 429
+    },
+    {
+      "url": "https://player.vimeo.com/video/1021908607?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 230
+    },
+    {
+      "url": "https://player.vimeo.com/video/1024512737?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 194
+    },
+    {
+      "url": "https://player.vimeo.com/video/1026328713?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 278
+    },
+    {
+      "url": "https://player.vimeo.com/video/1028625948?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 198
+    },
+    {
+      "url": "https://player.vimeo.com/video/1031739484?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 459
+    },
+    {
+      "url": "https://player.vimeo.com/video/1033669858?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 277
+    },
+    {
+      "url": "https://player.vimeo.com/video/1035406978?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 302
+    },
+    {
+      "url": "https://player.vimeo.com/video/1037630705?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 199
+    },
+    {
+      "url": "https://player.vimeo.com/video/1040594722?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 414
+    },
+    {
+      "url": "https://player.vimeo.com/video/1041860302?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 384
+    },
+    {
+      "url": "https://player.vimeo.com/video/1043024154?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 187
+    },
+    {
+      "url": "https://player.vimeo.com/video/1049130186?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 478
+    },
+    {
+      "url": "https://player.vimeo.com/video/1050968075?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 188
+    },
+    {
+      "url": "https://player.vimeo.com/video/1053221744?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 195
+    },
+    {
+      "url": "https://player.vimeo.com/video/1058035543?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 200
+    },
+    {
+      "url": "https://player.vimeo.com/video/1058037032?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 204
+    },
+    {
+      "url": "https://player.vimeo.com/video/1060292964?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 268
+    },
+    {
+      "url": "https://player.vimeo.com/video/1062963417?app_id=122963",
+      "ok": false,
+      "status": 429,
+      "ms": 197
+    },
+    {
+      "url": "https://player.vimeo.com/video/1064413164?app_id=122963",
+      "ok": false,
+      "status": 401,
+      "ms": 368
+    },
+    {
+      "url": "https://player.vimeo.com/video/1069363371",
+      "ok": false,
+      "status": 429,
+      "ms": 294
+    },
+    {
+      "url": "https://player.vimeo.com/video/1069377523",
+      "ok": false,
+      "status": 401,
+      "ms": 494
+    },
+    {
+      "url": "https://player.vimeo.com/video/1071633106?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 482
+    },
+    {
+      "url": "https://player.vimeo.com/video/1073725425?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 502
+    },
+    {
+      "url": "https://player.vimeo.com/video/1080716491?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 294
+    },
+    {
+      "url": "https://player.vimeo.com/video/1080623487?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 410
+    },
+    {
+      "url": "https://player.vimeo.com/video/1080650305?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 388
+    },
+    {
+      "url": "https://player.vimeo.com/video/1085847608?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 99
+    },
+    {
+      "url": "https://player.vimeo.com/video/1085854614?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 317
+    },
+    {
+      "url": "https://player.vimeo.com/video/1086125396?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 388
+    },
+    {
+      "url": "https://player.vimeo.com/video/1096713365?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 329
+    },
+    {
+      "url": "https://player.vimeo.com/video/1096716071?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 526
+    },
+    {
+      "url": "https://player.vimeo.com/video/1096724414?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 432
+    },
+    {
+      "url": "https://player.vimeo.com/video/1096728423?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 201
+    },
+    {
+      "url": "https://player.vimeo.com/video/1095447425?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 206
+    },
+    {
+      "url": "https://player.vimeo.com/video/1097358500?share=copy",
+      "ok": false,
+      "status": 401,
+      "ms": 364
+    },
+    {
+      "url": "https://player.vimeo.com/video/1099196974?share=copy",
+      "ok": false,
+      "status": 401,
+      "ms": 306
+    },
+    {
+      "url": "https://player.vimeo.com/video/1101054188?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 283
+    },
+    {
+      "url": "https://player.vimeo.com/video/1104957130?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 216
+    },
+    {
+      "url": "https://player.vimeo.com/video/1110766154?share=copy",
+      "ok": false,
+      "status": 401,
+      "ms": 487
+    },
+    {
+      "url": "https://player.vimeo.com/video/1112735017?share=copy",
+      "ok": false,
+      "status": 401,
+      "ms": 506
+    },
+    {
+      "url": "https://player.vimeo.com/video/1114713644?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 367
+    },
+    {
+      "url": "https://player.vimeo.com/video/1116607615?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 112
+    },
+    {
+      "url": "https://player.vimeo.com/video/1118568040?share=copy",
+      "ok": false,
+      "status": 429,
+      "ms": 290
+    },
+    {
+      "url": "https://player.vimeo.com/video/1120652287?share=copy",
+      "ok": false,
+      "status": 401,
+      "ms": 493
+    },
+    {
+      "url": "https://player.vimeo.com/video/1125328697?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 398
+    },
+    {
+      "url": "https://player.vimeo.com/video/1128325814?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 200
+    },
+    {
+      "url": "https://player.vimeo.com/video/1129339259?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 301
+    },
+    {
+      "url": "https://player.vimeo.com/video/1133647109?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 196
+    },
+    {
+      "url": "https://player.vimeo.com/video/1133678776?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 523
+    },
+    {
+      "url": "https://player.vimeo.com/video/1135947104?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 204
+    },
+    {
+      "url": "https://player.vimeo.com/video/1139473876?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 185
+    },
+    {
+      "url": "https://player.vimeo.com/video/1142617808?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 198
+    },
+    {
+      "url": "https://player.vimeo.com/video/1149062337?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 368
+    },
+    {
+      "url": "https://player.vimeo.com/video/1154176179?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 468
+    },
+    {
+      "url": "https://player.vimeo.com/video/1154179327?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 369
+    },
+    {
+      "url": "https://player.vimeo.com/video/1157364722?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 304
+    },
+    {
+      "url": "https://player.vimeo.com/video/1158992862?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 214
+    },
+    {
+      "url": "https://player.vimeo.com/video/1161677433?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 429,
+      "ms": 302
+    },
+    {
+      "url": "https://player.vimeo.com/video/1163800472?badge=0&autopause=0&player_id=0&app_id=58479",
+      "ok": false,
+      "status": 401,
+      "ms": 374
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/acoustic-guitar-job-description.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 259
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/bass-job-description.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 260
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/drummer-job-description-1.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 272
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/audio-tech-job-description.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 256
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/slides-tech-job-description-1.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/online-streaming-tech-job-description-1.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 239
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/job-description-kaleo-kids-teacher.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 259
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/job-description-kaleo-kids-assistant-teacher.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 227
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/job-description-kaleo-kids-teen-helper.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 237
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/job-description-kaleo-kids-check-in-volunteer.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 260
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ksm_leader_jobdescription.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 232
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/ksm_teacher_jobdescription.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/event-host.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 246
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/k-group-leader-job-description-r3.pdf",
+      "ok": true,
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/leadership-photos-sk.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 255
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Koinonia",
+      "ok": true,
+      "status": 200,
+      "ms": 204
+    },
+    {
+      "url": "https://kaleoalaska.churchcenter.com/groups/k-groups?enrollment=open_signup%2Crequest_to_join&filter=enrollment",
+      "ok": true,
+      "status": 200,
+      "ms": 682
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/kgroup.png",
+      "ok": true,
+      "status": 200,
+      "ms": 253
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/square-leadership-sk.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 277
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/img_2577.jpeg",
+      "ok": true,
+      "status": 200,
+      "ms": 260
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/square-insets-3.png",
+      "ok": true,
+      "status": 200,
+      "ms": 233
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/katie.jpg",
+      "ok": true,
+      "status": 200,
+      "ms": 236
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%205.8",
+      "ok": true,
+      "status": 200,
+      "ms": 667
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Gen%201.26",
+      "ok": true,
+      "status": 200,
+      "ms": 656
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%2014.9",
+      "ok": true,
+      "status": 200,
+      "ms": 640
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Col%201.15-23",
+      "ok": true,
+      "status": 200,
+      "ms": 661
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Heb%201.1-3",
+      "ok": true,
+      "status": 200,
+      "ms": 660
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%203.10",
+      "ok": true,
+      "status": 200,
+      "ms": 616
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%206.23",
+      "ok": true,
+      "status": 200,
+      "ms": 659
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Eph%202.1-3",
+      "ok": true,
+      "status": 200,
+      "ms": 664
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Eph%202.4-10",
+      "ok": true,
+      "status": 200,
+      "ms": 738
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%201.9",
+      "ok": true,
+      "status": 200,
+      "ms": 601
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%206.35-40",
+      "ok": true,
+      "status": 200,
+      "ms": 774
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%2010.28-30",
+      "ok": true,
+      "status": 200,
+      "ms": 682
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%2010.9-10",
+      "ok": true,
+      "status": 200,
+      "ms": 646
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%2010.13",
+      "ok": true,
+      "status": 200,
+      "ms": 667
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%203.16",
+      "ok": true,
+      "status": 200,
+      "ms": 620
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Acts%204.12",
+      "ok": true,
+      "status": 200,
+      "ms": 760
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rev%2021.1",
+      "ok": true,
+      "status": 200,
+      "ms": 619
+    },
+    {
+      "url": "https://biblia.com/bible/esv/1%20Cor%202.9",
+      "ok": true,
+      "status": 200,
+      "ms": 716
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rom%208.22",
+      "ok": true,
+      "status": 200,
+      "ms": 617
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rev%2021.4-5",
+      "ok": true,
+      "status": 200,
+      "ms": 714
+    },
+    {
+      "url": "https://biblia.com/bible/esv/Rev%2022.1-5",
+      "ok": true,
+      "status": 200,
+      "ms": 725
+    },
+    {
+      "url": "https://biblia.com/bible/esv/John%2017.3",
+      "ok": true,
+      "status": 200,
+      "ms": 615
+    },
+    {
+      "url": "https://lausanne.org/content/covenant/lausanne-covenant",
+      "ok": true,
+      "status": 200,
+      "ms": 690
+    },
+    {
+      "url": "https://www.acts29.com/about-us/",
+      "ok": true,
+      "status": 200,
+      "ms": 559
+    },
+    {
+      "url": "https://gospelinlife.com/free-sermon-resource/",
+      "ok": true,
+      "status": 200,
+      "ms": 813
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/lausanne-covenant.png",
+      "ok": true,
+      "status": 200,
+      "ms": 243
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/acts29.png",
+      "ok": true,
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "url": "https://cpmfiles1.com/kaleoalaska.org/gospelinlife.png",
+      "ok": true,
+      "status": 200,
+      "ms": 240
+    }
+  ]
+}

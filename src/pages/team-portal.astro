@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHeader from "../components/PageHeader.astro";
+import data from "../content/site-data.json";
+
+const siteData = data as {
+  updatedAt: string;
+  sundayServices: unknown[];
+  kGroups: unknown[];
+  events: unknown[];
+  quickLinks: unknown[];
+};
+---
+<BaseLayout title="Team Portal | Kaleo Church">
+  <PageHeader title="Team Portal" intro="Update key site data, review requests, and export JSON for quick content updates." />
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Portal Tools</h2>
+      <ul>
+        <li><strong>Content Editor:</strong> Update services, K-groups, and events JSON.</li>
+        <li><strong>Car Help Inbox:</strong> View requests submitted from the car maintenance form.</li>
+        <li><strong>Link Health:</strong> Open latest link-check report.</li>
+      </ul>
+      <p><a class="btn btn-secondary" href="/resources/all-links">Open All Links + Status</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Editable Site Data</h2>
+      <p class="lead">Last source update: {siteData.updatedAt}</p>
+      <textarea id="site-data" rows="18">{JSON.stringify(siteData, null, 2)}</textarea>
+      <p class="row">
+        <button class="btn btn-primary" id="save-data">Save To Browser</button>
+        <button class="btn btn-secondary" id="download-data">Download JSON</button>
+      </p>
+      <p id="data-status" class="lead"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Car Maintenance Help Requests</h2>
+      <div id="car-help-list"></div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  const dataKey = "kaleo_portal_site_data";
+  const reqKey = "kaleo_car_help_requests";
+  const area = document.getElementById("site-data");
+  const status = document.getElementById("data-status");
+
+  const saved = localStorage.getItem(dataKey);
+  if (saved && area) area.value = saved;
+
+  document.getElementById("save-data")?.addEventListener("click", () => {
+    try {
+      JSON.parse(area.value);
+      localStorage.setItem(dataKey, area.value);
+      status.textContent = "Saved to browser local storage.";
+    } catch {
+      status.textContent = "Invalid JSON. Fix formatting before saving.";
+    }
+  });
+
+  document.getElementById("download-data")?.addEventListener("click", () => {
+    const blob = new Blob([area.value], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "site-data.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  const requests = JSON.parse(localStorage.getItem(reqKey) || "[]");
+  const list = document.getElementById("car-help-list");
+  if (!list) {
+  } else if (requests.length === 0) {
+    list.innerHTML = "<p>No requests saved on this device yet.</p>";
+  } else {
+    list.innerHTML = requests
+      .map(
+        (r, i) => `<article style="border:1px solid var(--line);border-radius:10px;padding:.75rem;margin-bottom:.65rem;">\n<h3>Request ${i + 1}: ${r.name || "Unknown"}</h3>\n<p><strong>Vehicle:</strong> ${r.vehicle || "N/A"}</p>\n<p><strong>Issue:</strong> ${r.issue || "N/A"}</p>\n<p><strong>Contact:</strong> ${r.email || "N/A"} / ${r.phone || "N/A"}</p>\n<p><strong>Urgency:</strong> ${r.urgency || "N/A"}</p>\n<p><strong>Submitted:</strong> ${r.createdAt || "N/A"}</p>\n</article>`
+      )
+      .join("");
+  }
+</script>
+
+<style>
+  .box { padding: 1.2rem; }
+  .row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+  textarea {
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.65rem;
+    font-family: Consolas, monospace;
+  }
+</style>

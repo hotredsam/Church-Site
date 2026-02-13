@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Baptism | Kaleo Church">
+  <PageHeader title="Baptism" intro="Baptism is a public declaration of faith in Jesus. If you are ready to take this step, we want to walk with you." />
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.baptism} target="_blank" rel="noreferrer">Baptism Form</a></p>
+  </div></section>
+</BaseLayout>

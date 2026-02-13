@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import CardGrid from "../../components/CardGrid.astro";
+---
+<BaseLayout title="About | Kaleo Church">
+  <PageHeader title="About Kaleo Church" intro="Kaleo Church is one church in two locations in Anchorage, Alaska. We are imperfect people united by faith in Jesus Christ." />
+  <CardGrid
+    title="Explore"
+    items={[
+      { title: "Plan Your Visit", text: "Service times, location details, and what to expect.", href: "/about/plan-your-visit" },
+      { title: "Staff & Leadership", text: "Meet the pastors and team serving Kaleo.", href: "/about/staff-leadership" },
+      { title: "What We Believe", text: "Read our doctrinal commitments and convictions.", href: "/about/what-we-believe" },
+      { title: "Our Story", text: "How God has grown Kaleo Church in Anchorage.", href: "/about/our-story" }
+    ]}
+  />
+</BaseLayout>

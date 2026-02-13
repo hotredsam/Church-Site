@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Live Stream | Kaleo Church">
+  <PageHeader title="Live Stream" intro="Join the live stream or catch recent services on our official channel." />
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.watch} target="_blank" rel="noreferrer">Watch on YouTube</a></p>
+  </div></section>
+</BaseLayout>

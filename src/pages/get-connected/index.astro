@@ -1,0 +1,21 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import CardGrid from "../../components/CardGrid.astro";
+---
+<BaseLayout title="Get Connected | Kaleo Church">
+  <PageHeader title="Get Connected" intro="Find your next step in community through groups, ministries, and Church Center tools." />
+  <CardGrid
+    title="Connection Paths"
+    items={[
+      { title: "Connect Card", text: "Share your info and let us follow up.", href: "/get-connected/contact-connect-card" },
+      { title: "K-Groups", text: "Join a small group for prayer, care, and Scripture.", href: "/get-connected/k-groups" },
+      { title: "Car Maintenance Help", text: "Request practical vehicle help from men in the church.", href: "/get-connected/car-maintenance-help" },
+      { title: "Kaleo Kids", text: "Children's ministry details and family resources.", href: "/get-connected/kaleo-kids" },
+      { title: "Kaleo Student Ministry", text: "Ministry for middle and high school students.", href: "/get-connected/kaleo-student-ministry" },
+      { title: "Men's Ministry", text: "Men’s discipleship resources and gatherings.", href: "/get-connected/mens-ministry" },
+      { title: "Church Center App", text: "Manage events, groups, giving, and profile.", href: "/get-connected/church-center-app" }
+    ]}
+  />
+</BaseLayout>
+

@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import LinkList from "../../components/LinkList.astro";
+---
+<BaseLayout title="Men's Ministry | Kaleo Church">
+  <PageHeader title="Men's Ministry" intro="Men’s ministry provides practical discipleship tools for prayer, accountability, and Bible reading." />
+  <LinkList
+    title="Men's Resources"
+    items={[
+      { label: "Men's Ministry Resources (legacy)", href: "https://www.kaleoalaska.org/get-connected/mens-ministry-resources", external: true }
+    ]}
+  />
+</BaseLayout>

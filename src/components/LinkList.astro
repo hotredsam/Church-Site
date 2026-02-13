@@ -1,0 +1,27 @@
+---
+interface LinkItem {
+  label: string;
+  href: string;
+  external?: boolean;
+}
+interface Props {
+  title: string;
+  items: LinkItem[];
+}
+const { title, items } = Astro.props;
+---
+<section class="section">
+  <div class="container card list">
+    <h2>{title}</h2>
+    <ul>
+      {items.map((item) => (
+        <li><a href={item.href} target={item.external ? "_blank" : undefined} rel={item.external ? "noreferrer" : undefined}>{item.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .list { padding: 1.2rem; }
+  .list ul { margin: 0; padding-left: 1rem; display: grid; gap: 0.35rem; }
+</style>

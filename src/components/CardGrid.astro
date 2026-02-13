@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  items: { title: string; text: string; href?: string }[];
+}
+
+const { title, items } = Astro.props;
+---
+<section class="section">
+  <div class="container">
+    <h2>{title}</h2>
+    <div class="grid">
+      {items.map((item) => (
+        <article class="card tile">
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+          {item.href && <a class="btn btn-secondary" href={item.href}>Learn More</a>}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .tile { padding: 1rem; display: grid; gap: 0.4rem; align-content: start; }
+  .tile p { margin: 0; color: var(--muted); }
+</style>

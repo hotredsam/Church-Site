@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Give | Kaleo Church">
+  <PageHeader title="Give" intro="Giving is handled securely through Church Center." />
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.giving} target="_blank" rel="noreferrer">Give Through Church Center</a></p>
+  </div></section>
+</BaseLayout>

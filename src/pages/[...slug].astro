@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import LegacyContent from "../components/LegacyContent.astro";
+import data from "../content/legacy-pages.json";
+
+type LegacyPage = {
+  route: string;
+  sourceUrl: string;
+  title: string;
+  text: string;
+  outboundLinks: string[];
+  documentLinks: string[];
+  videoLinks: string[];
+  imageLinks: string[];
+};
+
+export function getStaticPaths() {
+  const pages = data as LegacyPage[];
+  return pages.map((page) => ({
+    params: {
+      slug: page.route === "/" ? undefined : page.route.slice(1)
+    },
+    props: { page }
+  }));
+}
+
+const { page } = Astro.props as { page: LegacyPage };
+---
+
+<BaseLayout title={`${page.title} | Kaleo Church`} description={`Legacy mirrored content for ${page.route}`}>
+  <LegacyContent
+    title={page.title}
+    sourceUrl={page.sourceUrl}
+    text={page.text}
+    outboundLinks={page.outboundLinks}
+    documentLinks={page.documentLinks}
+    videoLinks={page.videoLinks}
+    imageLinks={page.imageLinks}
+  />
+</BaseLayout>

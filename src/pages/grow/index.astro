@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import CardGrid from "../../components/CardGrid.astro";
+---
+<BaseLayout title="Grow | Kaleo Church">
+  <PageHeader title="Grow" intro="Take the next step in spiritual growth through sermons, prayer, baptism, membership, serving, and marriage ministry." />
+  <CardGrid
+    title="Growth Pathways"
+    items={[
+      { title: "Sermons", text: "Watch or listen to current teaching.", href: "/grow/sermons" },
+      { title: "Bible Reading Plan", text: "Read Scripture with the church body.", href: "/grow/bible-reading-plan" },
+      { title: "Prayer", text: "Share a prayer request with the team.", href: "/grow/prayer" },
+      { title: "Baptism", text: "Learn and take your step of public faith.", href: "/grow/baptism" },
+      { title: "Membership", text: "Understand membership and our covenant.", href: "/grow/membership" },
+      { title: "Serve", text: "Find where to serve in the life of the church.", href: "/grow/serve" },
+      { title: "Re|Engage", text: "Marriage ministry for all seasons.", href: "/grow/re-engage" }
+    ]}
+  />
+</BaseLayout>

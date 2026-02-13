@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import DocumentList from "../../components/DocumentList.astro";
+import { documents } from "../../config/site";
+import legacy from "../../content/legacy-pages.json";
+
+const records = legacy as { route: string; imageLinks?: string[] }[];
+const groupImages = [...new Set(
+  records
+    .filter((r) => r.route === "/small-groups" || r.route === "/kgroup-resources")
+    .flatMap((r) => r.imageLinks ?? [])
+)];
+---
+<BaseLayout title="K-Groups | Kaleo Church">
+  <PageHeader title="K-Groups" intro="K-Groups are where people pray together, apply Scripture, and care for one another through the week." />
+  <DocumentList
+    title="Group Documents"
+    items={[
+      { label: "Small Group Policies (PDF)", href: documents.smallGroupPolicies }
+    ]}
+  />
+  {groupImages.length > 0 && (
+    <section class="section">
+      <div class="container card box">
+        <h2>K-Groups Images</h2>
+        <div class="img-grid">
+          {groupImages.map((href) => (
+            <a href={href} target="_blank" rel="noreferrer">
+              <img src={href} alt="K-Groups image" loading="lazy" />
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .box { padding: 1.2rem; }
+  .img-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+  .img-grid a {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .img-grid img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+  }
+</style>

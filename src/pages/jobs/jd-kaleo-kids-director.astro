@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import { documents } from "../../config/site";
+---
+<BaseLayout title="JD: Kaleo Kids Director | Kaleo Church">
+  <PageHeader title="Job Description: Kaleo Kids Director" intro="Original role description PDF from Kaleo Church." />
+  <section class="section"><div class="container card" style="padding:1.2rem"><a class="btn btn-primary" href={documents.jobDescriptions.kaleoKidsDirector} target="_blank" rel="noreferrer">Open PDF</a></div></section>
+</BaseLayout>

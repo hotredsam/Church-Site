@@ -1,0 +1,61 @@
+{
+  "updatedAt": "2026-02-12",
+  "sundayServices": [
+    {
+      "name": "Sunday Gathering",
+      "day": "Sunday",
+      "time": "10:00 AM",
+      "location": "Midtown and South Anchorage",
+      "notes": "Worship through music and Bible teaching."
+    }
+  ],
+  "kGroups": [
+    {
+      "name": "K-Groups",
+      "description": "Small groups focused on Scripture, fellowship, and prayer.",
+      "link": "https://kaleoalaska.churchcenter.com/groups/k-groups?enrollment=open_signup%2Crequest_to_join&filter=enrollment"
+    },
+    {
+      "name": "K-Group Leader Resources",
+      "description": "Training and resources for K-Group leaders.",
+      "link": "/kgroup-resources"
+    }
+  ],
+  "events": [
+    {
+      "title": "Sunday Gathering",
+      "date": "Every Sunday",
+      "time": "10:00 AM",
+      "location": "Kaleo Church - Anchorage",
+      "link": "/about/plan-your-visit"
+    },
+    {
+      "title": "K-Group Meetings",
+      "date": "Weekly",
+      "time": "Varies by group",
+      "location": "Homes and church spaces",
+      "link": "/get-connected/k-groups"
+    },
+    {
+      "title": "Church Calendar",
+      "date": "Ongoing",
+      "time": "See details",
+      "location": "Church Center",
+      "link": "https://kaleoalaska.churchcenter.com/calendar"
+    }
+  ],
+  "quickLinks": [
+    {
+      "label": "Church Center",
+      "link": "https://kaleoalaska.churchcenter.com"
+    },
+    {
+      "label": "Sermons Archive",
+      "link": "/sermons"
+    },
+    {
+      "label": "Events Calendar",
+      "link": "/events/calendar"
+    }
+  ]
+}

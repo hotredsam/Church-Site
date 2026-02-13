@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import data from "../../content/site-data.json";
+import { canonical } from "../../config/site";
+
+type SiteData = {
+  sundayServices: { name: string; day: string; time: string; location: string; notes?: string }[];
+  kGroups: { name: string; description: string; link: string }[];
+  events: { title: string; date: string; time: string; location: string; link: string }[];
+};
+
+const siteData = data as SiteData;
+---
+<BaseLayout title="Events Calendar | Kaleo Church">
+  <PageHeader title="Church Calendar" intro="Events, Sunday services, and K-Group pathways in one place." />
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Sunday Services</h2>
+      <div class="grid">
+        {siteData.sundayServices.map((service) => (
+          <article class="item">
+            <h3>{service.name}</h3>
+            <p><strong>{service.day}</strong> at <strong>{service.time}</strong></p>
+            <p>{service.location}</p>
+            {service.notes && <p>{service.notes}</p>}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Event List</h2>
+      <div class="grid">
+        {siteData.events.map((event) => (
+          <article class="item">
+            <h3>{event.title}</h3>
+            <p>{event.date} | {event.time}</p>
+            <p>{event.location}</p>
+            <p><a href={event.link} target={event.link.startsWith("http") ? "_blank" : undefined} rel={event.link.startsWith("http") ? "noreferrer" : undefined}>Open Details</a></p>
+          </article>
+        ))}
+      </div>
+      <p><a class="btn btn-primary" href={canonical.events} target="_blank" rel="noreferrer">Open Official Church Center Calendar</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card box">
+      <h2>K-Group Information</h2>
+      <ul>
+        {siteData.kGroups.map((group) => (
+          <li>
+            <strong>{group.name}</strong>: {group.description} <a href={group.link} target={group.link.startsWith("http") ? "_blank" : undefined} rel={group.link.startsWith("http") ? "noreferrer" : undefined}>Open</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .box { padding: 1.2rem; }
+  .item { padding: 0.85rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+  ul { margin: 0; padding-left: 1rem; }
+</style>

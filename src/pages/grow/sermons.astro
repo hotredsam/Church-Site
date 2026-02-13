@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import LinkList from "../../components/LinkList.astro";
+import { canonical } from "../../config/site";
+import legacy from "../../content/legacy-pages.json";
+
+const records = legacy as { route: string; text?: string }[];
+const sermonRecord = records.find((r) => r.route === "/sermons");
+const sermonArchiveLines = (sermonRecord?.text ?? "")
+  .split("\n")
+  .map((line) => line.trim())
+  .filter(Boolean);
+---
+<BaseLayout title="Sermons | Kaleo Church">
+  <PageHeader title="Sermons" intro="Watch and listen to teaching from Kaleo Church. Media remains hosted on official streaming platforms." />
+  <LinkList
+    title="Sermon Destinations"
+    items={[
+      { label: "Watch on YouTube", href: canonical.watch, external: true },
+      { label: "Listen on Spotify", href: canonical.listen, external: true },
+      { label: "Full Sermon Archive (On This Site)", href: "/sermons" }
+    ]}
+  />
+  {sermonArchiveLines.length > 0 && (
+    <section class="section">
+      <div class="container card box">
+        <h2>Archive Snapshot</h2>
+        <p class="lead">The complete mirrored archive is available at <a href="/sermons">/sermons</a>. This snapshot is pulled from the live sermon index.</p>
+        <details>
+          <summary>Show Full Sermon Archive Text</summary>
+          <div class="copy">
+            {sermonArchiveLines.map((line) => <p>{line}</p>)}
+          </div>
+        </details>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .box { padding: 1.2rem; }
+  .copy p { margin: 0 0 0.55rem; }
+  details {
+    margin-top: 0.8rem;
+    border-top: 1px solid var(--line);
+    padding-top: 0.8rem;
+  }
+</style>

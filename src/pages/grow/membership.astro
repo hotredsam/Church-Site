@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import DocumentList from "../../components/DocumentList.astro";
+import { documents } from "../../config/site";
+---
+<BaseLayout title="Membership | Kaleo Church">
+  <PageHeader title="Membership" intro="Membership helps define commitment, care, and mission in the life of our church." />
+  <DocumentList
+    title="Membership Documents"
+    items={[
+      { label: "Covenant Membership (PDF)", href: documents.membershipCovenant }
+    ]}
+  />
+</BaseLayout>

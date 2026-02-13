@@ -1,0 +1,22 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Events | Kaleo Church">
+  <PageHeader title="Upcoming Events" intro="See upcoming events, Sunday service rhythm, and K-Group related scheduling." />
+
+  <CardGrid
+    title="Event Destinations"
+    items={[
+      { title: "Calendar Page", text: "Local church calendar, Sunday service info, and K-Group links.", href: "/events/calendar" },
+      { title: "Church Center Calendar", text: "Official registration and event details.", href: canonical.events },
+      { title: "K-Groups", text: "Weekly small-group pathway and resources.", href: "/get-connected/k-groups" }
+    ]}
+  />
+
+  <section class="section"><div class="container card" style="padding:1.2rem">
+    <p><a class="btn btn-primary" href={canonical.events} target="_blank" rel="noreferrer">Open Official Church Center Calendar</a></p>
+  </div></section>
+</BaseLayout>

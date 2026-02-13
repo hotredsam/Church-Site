@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import health from "../../content/link-health.json";
+
+const report = health as {
+  checkedAt: string;
+  totals: { links: number; ok: number; failed: number };
+  results: { url: string; ok: boolean; status: number; ms: number; error?: string }[];
+};
+
+const failed = report.results.filter((r) => !r.ok);
+const ok = report.results.filter((r) => r.ok);
+---
+<BaseLayout title="All Links | Kaleo Church">
+  <PageHeader title="All Links + Health" intro="Coverage from extracted live-site links, files, images, and video targets." />
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Summary</h2>
+      <p><strong>Checked:</strong> {report.checkedAt}</p>
+      <p><strong>Total:</strong> {report.totals.links} | <strong>OK:</strong> {report.totals.ok} | <strong>Failed:</strong> {report.totals.failed}</p>
+      <p><a class="btn btn-secondary" href="/team-portal">Open Team Portal</a></p>
+    </div>
+  </section>
+
+  {failed.length > 0 && (
+    <section class="section">
+      <div class="container card box">
+        <h2>Failed Links</h2>
+        <ul>
+          {failed.map((r) => (
+            <li><a href={r.url} target="_blank" rel="noreferrer">{r.url}</a> (status {r.status}{r.error ? `, ${r.error}` : ""})</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container card box">
+      <h2>Working Links</h2>
+      <ul>
+        {ok.slice(0, 500).map((r) => (
+          <li><a href={r.url} target="_blank" rel="noreferrer">{r.url}</a> (status {r.status})</li>
+        ))}
+      </ul>
+      {ok.length > 500 && <p class="lead">Showing first 500 working links of {ok.length} total.</p>}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .box { padding: 1.2rem; }
+  ul { margin: 0; padding-left: 1rem; }
+  li { margin-bottom: 0.35rem; word-break: break-word; }
+</style>

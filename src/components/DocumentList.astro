@@ -1,0 +1,26 @@
+---
+interface DocItem {
+  label: string;
+  href: string;
+}
+interface Props {
+  title: string;
+  items: DocItem[];
+}
+const { title, items } = Astro.props;
+---
+<section class="section">
+  <div class="container card list">
+    <h2>{title}</h2>
+    <ul>
+      {items.map((item) => (
+        <li><a href={item.href} target="_blank" rel="noreferrer">{item.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .list { padding: 1.2rem; }
+  .list ul { margin: 0; padding-left: 1rem; display: grid; gap: 0.35rem; }
+</style>

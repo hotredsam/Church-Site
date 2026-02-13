@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import DocumentList from "../../components/DocumentList.astro";
+import { documents } from "../../config/site";
+---
+<BaseLayout title="Serve | Kaleo Church">
+  <PageHeader title="Serve" intro="Serving is one of the main ways we grow in love for Christ and one another." />
+  <DocumentList
+    title="Role Description PDFs"
+    items={[
+      { label: "Kaleo Kids Director", href: documents.jobDescriptions.kaleoKidsDirector },
+      { label: "Operations Director", href: documents.jobDescriptions.operationsDirector },
+      { label: "Church Multiplication Resident", href: documents.jobDescriptions.churchMultiplicationResident },
+      { label: "Worship Leader", href: documents.jobDescriptions.worshipLeader },
+      { label: "Women Director", href: documents.jobDescriptions.womenDirector },
+      { label: "Youth Director", href: documents.jobDescriptions.youthDirector },
+      { label: "Communication Director", href: documents.jobDescriptions.communicationDirector }
+    ]}
+  />
+</BaseLayout>

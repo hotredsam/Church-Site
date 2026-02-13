@@ -1,0 +1,42 @@
+---
+import { footerLinks, siteMeta } from "../config/site";
+---
+
+<footer class="footer section">
+  <div class="container blocks">
+    <div>
+      <h3>{siteMeta.title}</h3>
+      <p class="muted">{siteMeta.description} Gathering on Sundays at 10:00 AM.</p>
+      <p><a class="btn btn-secondary" href="/about/plan-your-visit">Plan Your Visit</a></p>
+      <p class="muted" style="margin-top:0.5rem">Contact: <a href={`mailto:${siteMeta.email}`}>{siteMeta.email}</a> · {siteMeta.phone}</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        {footerLinks.quick.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h4>External</h4>
+      <ul>
+        {footerLinks.external.map((item) => <li><a href={item.href} target="_blank" rel="noreferrer">{item.label}</a></li>)}
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid var(--line);
+    background: var(--surface-soft);
+  }
+  .blocks {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 1.1rem;
+  }
+  h3, h4 { margin-bottom: 0.55rem; }
+  ul { margin: 0; padding-left: 1rem; }
+  .muted { color: var(--muted); max-width: 40ch; }
+  @media (max-width: 760px) { .blocks { grid-template-columns: 1fr; } }
+</style>

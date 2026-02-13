@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import DocumentList from "../../components/DocumentList.astro";
+import { documents } from "../../config/site";
+---
+<BaseLayout title="Advent Resources | Kaleo Church">
+  <PageHeader title="Advent Resources" intro="Seasonal Advent readings and guide PDFs." />
+  <DocumentList
+    title="Advent PDFs"
+    items={[
+      { label: "Kaleo Advent Guide 2024", href: documents.adventGuide },
+      { label: "The Incarnation Advent Readings", href: documents.adventReadings }
+    ]}
+  />
+</BaseLayout>

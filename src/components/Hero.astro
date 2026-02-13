@@ -1,0 +1,43 @@
+---
+interface Props {
+  kicker?: string;
+  title: string;
+  text: string;
+  actions?: { label: string; href: string; external?: boolean }[];
+}
+
+const { kicker, title, text, actions = [] } = Astro.props;
+---
+
+<section class="hero section">
+  <div class="container">
+    <div class="panel card">
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h1 class="page-title">{title}</h1>
+      <p class="lead">{text}</p>
+      {actions.length > 0 && (
+        <p class="row">
+          {actions.map((action, idx) => (
+            <a class={`btn ${idx === 0 ? "btn-primary" : "btn-secondary"}`} href={action.href} target={action.external ? "_blank" : undefined} rel={action.external ? "noreferrer" : undefined}>{action.label}</a>
+          ))}
+        </p>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(140deg, var(--hero-grad-a), var(--hero-grad-b));
+    border-bottom: 1px solid var(--line);
+  }
+  .panel {
+    padding: 2.2rem;
+    animation: rise 380ms ease both;
+  }
+  .row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1rem; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>

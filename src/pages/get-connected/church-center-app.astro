@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import LinkList from "../../components/LinkList.astro";
+import { canonical } from "../../config/site";
+---
+<BaseLayout title="Church Center App | Kaleo Church">
+  <PageHeader title="Church Center App" intro="Use Church Center to register for events, join groups, submit forms, and manage giving." />
+  <LinkList
+    title="Church Center Links"
+    items={[
+      { label: "Open Church Center", href: canonical.churchCenter, external: true },
+      { label: "Connect Card", href: canonical.connectCard, external: true },
+      { label: "Give", href: canonical.giving, external: true }
+    ]}
+  />
+</BaseLayout>

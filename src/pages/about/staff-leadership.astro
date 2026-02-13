@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeader from "../../components/PageHeader.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import legacy from "../../content/legacy-pages.json";
+
+const records = legacy as { route: string; imageLinks?: string[] }[];
+const peopleRoutes = ["/staff-leadership", "/chris-cha", "/cody-carpenter", "/darron-rizer", "/jay-ubben", "/lucy-matthews", "/sk-son-elder"];
+const peopleImages = [...new Set(
+  records
+    .filter((r) => peopleRoutes.includes(r.route))
+    .flatMap((r) => r.imageLinks ?? [])
+)];
+---
+<BaseLayout title="Staff & Leadership | Kaleo Church">
+  <PageHeader title="Staff & Leadership" intro="Meet the team serving Kaleo Church in Anchorage." />
+  <CardGrid
+    title="Pastoral Team"
+    items={[
+      { title: "Josh Sawyer", text: "Lead Pastor", href: "/about/staff/josh-sawyer" },
+      { title: "Tyler Dumbrille", text: "Pastor", href: "/about/staff/tyler-dumbrille" }
+    ]}
+  />
+  {peopleImages.length > 0 && (
+    <section class="section">
+      <div class="container card box">
+        <h2>Staff & Leadership Images</h2>
+        <div class="img-grid">
+          {peopleImages.map((href) => (
+            <a href={href} target="_blank" rel="noreferrer">
+              <img src={href} alt="Kaleo staff image" loading="lazy" />
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .box { padding: 1.2rem; }
+  .img-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+  .img-grid a {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .img-grid img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+  }
+</style>
