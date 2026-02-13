@@ -1,0 +1,307 @@
+#cpmplayer {
+    background:#161616;
+    box-sizing: border-box;
+    height: 65px;
+    width: 80%;
+    margin: 25px auto 0;
+    display:none;
+    border-radius: 65px;
+}
+#cpmplayer.show {
+    display:block;
+}
+
+@media (max-width: 360px) {
+    #cpmplayer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+.vjs-cpm.vjs-audio {
+    position:relative;
+    width:638px;
+    margin:0 auto;
+    letter-spacing:-.31em;
+    text-rendering:optimizespeed;
+}
+.vjs-spacer,
+.vjs-cpm .vjs-loading-spinner,
+.vjs-playback-rate,
+.vjs-chapters-button,
+.vjs-hidden,
+.vjs-resize-manager,
+.vjs-cpm .vjs-fullscreen-control,
+.vjs-menu-button,
+.vjs-big-play-button {
+    display:none !important;
+}
+
+.vjs-audio .vjs-control-bar {
+    position:relative;
+    letter-spacing:-.31em;
+    text-rendering:optimizeSpeed;
+    background:#161616;
+    height:65px;
+}
+
+/*
+ * Play Pause Button
+ * -------------------*/
+.vjs-play-control {
+    background:none;
+    border:none;
+    padding:0;
+    margin:22px 0 30px 31px;
+    color:#fff;
+}
+
+.vjs-play-control:focus {
+    outline:none;
+}
+
+.vjs-play-control .vjs-icon-placeholder {
+    width: 0;
+    height: 0;
+    border-top: 10.5px solid transparent;
+    border-bottom: 10.5px solid transparent;
+    border-left: 14px solid #fff;
+    font-size:0;
+    line-height:0;
+    position:relative;
+    display:block;
+    cursor:pointer;
+}
+
+.vjs-playing .vjs-icon-placeholder:before,
+.vjs-playing .vjs-icon-placeholder:after {
+    display:block;
+    content:'';
+    position:absolute;
+    background:#fff;
+}
+
+.vjs-play-control.vjs-playing .vjs-icon-placeholder {
+    border:none;
+    width:14px;
+    height:21px;
+}
+
+.vjs-play-control.vjs-playing .vjs-icon-placeholder:before,
+.vjs-play-control.vjs-playing .vjs-icon-placeholder:after {
+    width:4px;
+    height:21px;
+    top:0;
+}
+
+.vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
+    left:0;
+}
+
+.vjs-play-control.vjs-playing .vjs-icon-placeholder:after {
+    right:0;
+}
+
+.vjs-play-control .vjs-control-text {
+    display:none;
+}
+
+/* Current Time
+----------------*/
+.vjs-current-time {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.vjs-current-time .vjs-control-text,
+.vjs-time-divider {
+    display:none;    
+}
+
+.vjs-time-control span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    line-height:65px;
+    margin-left:25px;
+    width:35px;
+    overflow:hidden;
+    letter-spacing:.05em;
+}
+
+/* Progress
+-----------*/
+.vjs-progress-control {
+    width:321px;
+    height:7px;
+    position:absolute;
+    top:29px;
+    left:120px;    
+}
+
+.vjs-progress-control .vjs-control-text,
+.vjs-time-tooltip {
+    display:none;
+}
+
+.vjs-progress-holder {
+    width:100%;
+    height:7px;
+    position:relative;
+    background:rgba(53,53,53,0.3);
+    -wekbit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+.vjs-load-progress {
+    background:#353535;
+    z-index:1;
+}
+
+.vjs-play-progress {
+    background:#1d84e4;
+    z-index:2;
+}
+
+.vjs-load-progress,
+.vjs-play-progress {
+    width:0;
+    height:7px;
+    position:absolute;
+    top:0;
+    left:0;
+    -wekbit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+.vjs-play-progress:after,
+.vjs-volume-level:after {
+    cursor:pointer;
+    position:absolute;
+    display:block;
+    content:'';    
+    top: -4px;
+    right:0;
+    width: 15px;
+    height: 15px;
+    background:#fff;
+    z-index:10;
+    margin-left:-7.5px;
+
+    -webkit-box-shadow:0 1px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow:0 1px 4px rgba(0,0,0,0.6);
+    box-shadow:0 1px 4px rgba(0,0,0,0.6);
+
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    text-indent:-999em;
+}
+
+/* Duration Time
+----------------------*/
+.vjs-remaining-time,
+.vjs-duration .vjs-control-text {
+    display:none;
+}
+
+.vjs-duration {
+    position:absolute;
+    top:0;
+    left:460px;
+}
+
+.vjs-duration span {
+    margin-left:0;
+}
+
+/* Volume controls
+---------------------------------------------*/
+.vjs-volume-panel {
+    width:90px;
+    height:19px;    
+    position:absolute;
+    right:20px;
+    top:25px;
+}
+
+.vjs-volume-panel .vjs-control {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.vjs-volume-control {
+    position:relative;
+    width:68px;
+    height:7px;
+    background:#353535;
+    cursor:pointer;
+    top:5px;
+    left:15px;
+}
+
+/* slider */
+.vjs-volume-level {
+    z-index:1;
+    height:7px;
+    width:100%;
+    background:#1d84e4;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.vjs-volume-control,
+.vjs-volume-level {
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+
+/* Mute/unmute */
+.vjs-mute-control {
+    display:inline-block;
+    margin-right:-3px;
+    background:none;
+    border:none;
+    width:22px;
+    padding:0;
+    cursor:pointer;
+}
+
+.vjs-mute-control:focus {
+    outline:none;
+}
+
+.vjs-mute-control .vjs-icon-placeholder {
+    display:block;
+    background:url(../img/mute_icon.png) no-repeat;
+    height:19px;
+    width:22px;
+}
+
+.vjs-vol-0 .vjs-icon-placeholder {
+    width:11px;
+}
+
+.vjs-vol-1 .vjs-icon-placeholder {
+    width:13px;
+}
+
+.vjs-vol-2 .vjs-icon-placeholder {
+    width:14px;
+}
+
+.vjs-vol-3 .vjs-icon-placeholder {
+    min-width:17px;
+}
+
+.vjs-mute-control .vjs-control-text {
+    display:none;
+}
